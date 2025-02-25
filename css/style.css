@@ -80,6 +80,7 @@ header{
 .container-img{
     width: 30%;
     margin-top: 40px;
+
 }
 
 .position-relative{
@@ -109,9 +110,24 @@ header{
     top: 20px;
     padding: 10px;
     left: 94%;
-
-
 }
+
+.front{
+    display: block;
+}
+
+.back{
+    display: none;
+}
+
+.container-img:hover .front{
+    display: none;
+}
+
+.container-img:hover .back{
+    display: block;
+}
+
 
 /* footer */
 
