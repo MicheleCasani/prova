@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* utility */
 
 .display-flex{
@@ -22,8 +26,11 @@
     justify-content: center;
 }
 
-.flex-wra{
-    flex-wrap: wrap;
+.color-red{
+    color: red;
+}
+
+.text-decoration{ text-decoration: line-through;
 }
 /* intestazione */
 
@@ -33,6 +40,7 @@ header{
     justify-content: space-around;
     align-items: center;
     position: sticky;
+    top: 0;
 }
 
 .logo{
@@ -42,14 +50,21 @@ header{
 /* layout catalogo */
 
 .square-sfondo{
-    height: 1500px;
-    width: 1850px;
-    border: 1px solid black;
+    max-width: 1850px;
     margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card-img{
-    width: 500px;
-    
+    width: 100%;
 }
 
+.container-img{
+    width: 30%;
+    margin-top: 40px;
+}
+
+.position-relative{
+    position: relative;
+}
