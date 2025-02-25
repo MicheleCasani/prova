@@ -3,3 +3,44 @@
     padding: 0;
     border: border-box;
 }
+
+/* utility */
+
+.display-flex{
+    display: flex;
+}
+
+.color-white{
+    color: white;
+}
+
+.gap-header{
+    gap: 10px;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+/* intestazione */
+
+header{
+    height: 70px;
+    background-color: rgb(211, 138, 3);
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+.logo{
+    width: 150px;
+}
+
+/* layout catalogo */
+
+.square-sfondo{
+    height: 1500px;
+    width: 1850px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
